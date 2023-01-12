@@ -5,7 +5,14 @@
   "license": "MIT",
   "version": "0.1.0",
   "author": "@missena",
+  "scripts": {
+    "publish": "np --no-tests --no-yarn"
+  },
   "devDependencies": {
+    "np": "*",
     "typescript": "^4.9.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
